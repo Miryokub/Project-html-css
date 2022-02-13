@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>/*footer*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: whitesmoke;
+        cursor: pointer;
+       
+    }
+    .topnav {
+  background-color: #333;
+
+  width: 100%;
+
+
+}
+.topnav{
+    position: relative;
+    top: 0px;
+    position: fixed;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+#maincon-img{
+   display: inline;
+    width: 50%;
+    justify-content: space-around 20px 5px 5px 5px;
+    margin-right: 20px;
+    padding-right: 120px;
+    
+}
+#maincon-img{
+    
+    left: 20px;
+}
+.text{
+    margin-top: 80px;
+    width: 50%;
+    float: right;
+}
+
+
+.main {
+        max-width: 1000px;
+        margin: auto;
+      }
+      
+      h1 {
+        font-size: 50px;
+        word-break: break-all;
+      }
+      
+      .row {
+        margin: 20px -26px 20px 20px;
+        ;
+      }
+      
+      /* Add padding BETWEEN each column */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+      
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+        margin: 20px;
+      }
+      
+      /* Clear floats after rows */ 
+      .row::after  {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Content */
+      .content {
+        background-color: linen;
+        border-radius:10px ;
+        padding: 10px;
+      }
+      .content:hover{
+        background-color: mediumaquamarine;
+        color: white;
+       
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 767px) {
+        .column {
+          width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+        .row>.column>.content{
+          width: 45%;
+          display: block;
+        }
+        .text-feedback{
+          margin-left: 20px;
+        }
+        .main-copyright>.copyright{
+          width: 70%;
+          margin-left: 22px;
+          margin-bottom: 5px;
+          color: #f2f2f2;
+        }
+        .headertext{
+          padding-left: 20px;
+          color:gold;
+          transition: 0.5s;
+        }
+      }
+img{
+    border-radius: 40px 50px 10px 50px ;
+}
+
+
+
+footer{
+            width: 90%;
+            background-color:grey;
+            padding: 5% 5% 5% 5%;
+            text-align: center;
+            overflow: auto;
+        }
+        .footer-element{
+            width: 20%;
+            float: left;
+        }
+        footer>.footer-element>h3{
+            color: white;
+            margin-bottom:2% ;
+        }
+        footer>.footer-element>ul{
+            list-style-type: none;
+        }
+        footer>.footer-element>ul>li>a{
+            text-decoration: none;
+            color: yellow;
+           
+        }
+        footer>.footer-element>p{
+            color: white;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        #button1{
+          border-radius: 20px;
+        }
+        .header{
+          padding-left: 28px;
+        }
+        .main-copyright>.copyright{
+          margin-top: 65px;
+          margin-bottom: -200px;
+          
+        }
+      
+    </style>
+</head>
+<body>
+    
+
+    <div class="topnav" id="myTopnav">
+      <a href="proje3.html" class="active">Home</a>
+      <a href="proje2.html">Explore</a>
+      <a href="proje1.html">Contact</a>
+      <a href="proje4.html">About</a>
+    
+        
+      </a>
+    </div>
+             
+      
+      <div class="main">
+      <br><br>
+      <h1 class="headertext">Tourism</h1>
+      <hr>
+      
+      <h2 class="headertext">Bright side of life</h2>
+      <p class="headertext">Welcome to the incredible life Tourism </p>
+ 
+      <div class="row">
+        <div class="column">
+          <div class="content">
+            <img src="https://images.unsplash.com/photo-1448988301245-000401bb1ee7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" style="width: 200px;height: 200px;">
+            <h3>Know</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="https://images.unsplash.com/photo-1609861517208-e5b7b4cd4b87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dG91cmlzbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Lights" style="width:200px;height: 200px;">
+            <h3>Tourism</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="https://images.unsplash.com/photo-1519922639192-e73293ca430e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dG91cmlzbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Nature"  style="width:200px;height:200px;">
+            <h3>Lifestyle</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+          <img src="https://images.unsplash.com/photo-1619120238346-978e07731e77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRvdXJpc218ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt=""  style="width:200px;height:200px;">
+            <h3>Explore</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          </div>
+        </div>
+        <div class="column">
+            <div class="content">
+            <img src="https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHRvdXJpc218ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt=""  style="width:200px;height:200px;">
+              <h3>Sightseeing</h3>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+            <img src="https://images.unsplash.com/photo-1520069853334-85e555651e6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=60" alt=""  style="width:200px;height:200px;">
+              <h3>Discover</h3>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+          </div>
+     
+      </div>
+      
+      <div class="container">
+      </div>
+      </div>
+      <br><br>
+<!-------tourism-->
+      <footer>
+        <div class="footer-element">
+            <h3 class="header">
+                Medical Tourism
+            </h3>
+                <ul>
+                    <li><a href="">Paris</a></li>
+                    <li><a href="">Russian</a></li>
+                    <li><a href="">Vietnam</a></li>
+                    <li><a href="">Turkey</a></li>
+                    <li><a href="">Indonesia</a></li>
+                </ul>
+           
+        </div>
+        <div class="footer-element">
+           <h3 class="header">Buisness Tourism </h3>
+        <ul>
+            <li><a href="">Japon</a></li>
+            <li><a href="">China</a></li>
+            <li><a href="">Thailand</a></li>
+            <li><a href="">Malasia</a></li>
+         
+        </ul>
+    </div>
+    <div class="footer-element">
+           <h3 class="header">Religios Tourism</h3>
+        <ul>
+            <li><a href="">Saudi Arabia</a></li>
+            <li><a href="">United Arab Emirates</a></li>
+            <li><a href="">Oman</a></li>
+            <li><a href="">Bahrain</a></li>
+            
+        </ul>
+    </div>
+    <h3><b class="text-feedback">It is pleasure know your Feedback</b></h3>
+    <button id="button1"><a style="padding:28px;color: blue;font-weight: bolder;"href="proje1.html">Feedback</a></button>    
+ <br><br>
+ <div class="main-copyright">
+ <div class="copyright">Copyright © 2022 GMIr.Dev Corporation... </div>
+</div>
+  </footer>
+
+        </body>
+        </html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
